@@ -1,0 +1,17 @@
+{
+    "name": "hexlet/code",
+    "authors": [
+        {
+            "name": "Dinara275",
+            "email": "dinara.akhmetzhanova@gmail.com"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    },
+    "autoload": {
+        "files": [
+		"src/Gendiff.php"
+	]
+    }
+}
