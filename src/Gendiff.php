@@ -29,7 +29,7 @@ Options:
 
 DOC;
 
-require('vendor/docopt/docopt/src/docopt.php');
+require('path/to/src/docopt.php');
 $args = Docopt::handle($doc, array('version'=>'Gendiff 1.0'));
 foreach ($args as $k=>$v)
 	echo $k.': '.json_encode($v).PHP_EOL;
