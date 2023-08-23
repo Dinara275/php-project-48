@@ -2,7 +2,7 @@
 
 namespace Gendiff\Gendiff;
 
-use Class \Gendiff\Gendiff\Docopt;
+use Docopt\Docopt;
 
 function genDiff ()
 {
